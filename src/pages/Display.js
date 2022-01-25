@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../styles/pages/displayScreen.module.css";
+import styles from "../styles/pages/displayScreen.module.scss";
 import { localStorageKeys } from "../utils/constant";
 import { siteBgColourSets } from "../utils/siteTheme";
 import {

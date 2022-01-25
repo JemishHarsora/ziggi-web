@@ -1,6 +1,6 @@
 /* Font family */
+@use "./variable.scss";
 @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
-@import "./variable.css";
 /* Layout */
 * {
   padding: 0;
@@ -12,9 +12,15 @@ html,
 body {
   font-size: 14px;
   font-family: "Jockey One";
+  font-style: normal;
+  font-weight: normal;
   color: var(--primaryColor);
+  background-image: url("http://localhost:3001/assets/images/bgImage.png");
+  /*  */
 }
-
+.navbar-brand {
+  padding: 12px 0 13px 0 !important;
+}
 main {
   min-height: 80vh;
 }
