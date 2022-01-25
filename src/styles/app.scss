@@ -7,6 +7,10 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  // padding: 0;
+  // border: 0;
+  // margin: 0;
+  // box-sizing: border-box;
 }
 html,
 body {
@@ -15,7 +19,7 @@ body {
   font-style: normal;
   font-weight: normal;
   color: var(--primaryColor);
-  background-image: url("http://localhost:3001/assets/images/bgImage.png");
+  background-image: url("http://localhost:3000/assets/images/bgImage.png");
   /*  */
 }
 .navbar-brand {
