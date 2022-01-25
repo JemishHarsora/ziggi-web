@@ -1,0 +1,20 @@
+/* Font family */
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import "./variable.css";
+/* Layout */
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 14px;
+  font-family: "Jockey One";
+  color: var(--primaryColor);
+}
+
+main {
+  min-height: 80vh;
+}
